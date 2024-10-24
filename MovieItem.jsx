@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { useContext } from 'react';
 import { MovieContext } from '../context/MovieContext';
-import '../styles/MovieItem.css'; // Make sure to import the CSS
 
 const MovieItem = ({ movie }) => {
     const { addToFavorites, removeFromFavorites, favorites } = useContext(MovieContext);

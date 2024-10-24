@@ -1,0 +1,36 @@
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.movie-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.movie-item button {
+    margin-top: 10px;
+    background-color: #61dafb;
+    color: #282c34;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.movie-item button:hover {
+    background-color: #4fa3c4;
+}
